@@ -35,7 +35,7 @@ The goal is to simulate a real-world retail analytics scenario where management 
 - Drill-through functionality  
 - Date Table with time intelligence  
 
----
+'''
 
 ## 📁 Project Structure
 
@@ -50,8 +50,7 @@ retail-sales-analytics-powerbi/
 └── docs/
     └── README.md
 
-
----
+'''
 
 ## 📅 Project Status
 
