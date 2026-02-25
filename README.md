@@ -38,17 +38,17 @@ The goal is to simulate a real-world retail analytics scenario where management 
 ---
 
 ## 📁 Project Structure
-retail-sales-analytics-powerbi
+
+retail-sales-analytics-powerbi/
 │
 ├── data/
-│ └── retail_sales_raw.csv
+│   └── retail_sales_raw.csv
 │
 ├── pbix/
-│ └── retail_dashboard.pbix
+│   └── retail_dashboard.pbix
 │
-├── docs/
-│
-└── README.md
+└── docs/
+    └── README.md
 
 
 ---
