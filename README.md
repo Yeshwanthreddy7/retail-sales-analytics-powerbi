@@ -1,5 +1,7 @@
 # Retail Sales Analytics Dashboard (Power BI)
 
+# Project Updated
+
 ## 📌 Project Overview
 This project analyzes retail/e-commerce sales data using Power BI to generate business insights and performance tracking dashboards.
 
