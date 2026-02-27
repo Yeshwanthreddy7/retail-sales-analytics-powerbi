@@ -1,79 +1,111 @@
-# Retail Sales Analytics Dashboard (Power BI)
+# 📊 Retail Sales Analytics Dashboard (Power BI)
 
-# Project Updated
+> A professionally designed Power BI dashboard simulating a real-world retail analytics environment with executive-level reporting and interactive insights.
+
+---
 
 ## 📌 Project Overview
-This project analyzes retail/e-commerce sales data using Power BI to generate business insights and performance tracking dashboards.
 
-The goal is to simulate a real-world retail analytics scenario where management wants to monitor revenue, profit, sales trends, product performance, and regional performance.
+This project analyzes retail / e-commerce sales data using **Power BI** to generate actionable business insights and performance tracking dashboards.
+
+The goal is to simulate a real-world scenario where management needs to monitor:
+
+- Revenue & Profitability
+- Monthly Sales Trends
+- Product Performance
+- Regional Distribution
+- Return Rates & Operational Efficiency
+
+This project focuses on both **business intelligence** and **professional data modeling practices**.
 
 ---
 
 ## 🎯 Business Objectives
-- Track total revenue  
-- Monitor monthly sales trend  
-- Identify top 10 products  
-- Analyze region-wise performance  
-- Evaluate category-wise profit  
-- Track product returns  
+
+The dashboard answers the following key business questions:
+
+- What is the total revenue, cost, and profit?
+- How is revenue trending month-over-month?
+- Which products generate the highest revenue?
+- Which categories are most profitable?
+- How does performance vary by region?
+- What is the return rate and its business impact?
 
 ---
 
-## 🛠 Tools Used
-- Power BI  
-- Power Query (Data Cleaning & Transformation)  
-- DAX (Data Analysis Expressions)  
-- Git & GitHub (Version Control)  
+## 🛠 Tools & Technologies Used
+
+| Tool | Purpose |
+|------|---------|
+| Power BI Desktop | Dashboard development |
+| Power Query | Data cleaning & transformation |
+| DAX | Measure creation & KPIs |
+| Star Schema Modeling | Professional data modeling |
+| Git & GitHub | Version control & project hosting |
 
 ---
 
-## 📊 Key Features (Planned Dashboard)
-- KPI Cards (Revenue, Profit, Orders)  
-- Monthly Sales Trend (Line Chart)  
-- Top 10 Products (Bar Chart)  
-- Region-wise Sales Map  
-- Category-wise Profit Analysis  
-- Interactive Slicers  
-- Drill-through functionality  
-- Date Table with time intelligence  
+## 🧠 Data Modeling Architecture
 
+This project follows **industry-standard modeling principles**:
 
-## 📁 Project Structure
+- Fact Table → `Fact_Sales`
+- Dimension Table → `DateTable`
+- One-to-Many Relationship (Star Schema)
+- Time Intelligence enabled via Date Dimension
+- Month sorting using `MonthNumber`
+- Measures created using optimized DAX
 
-```
-retail-sales-analytics-powerbi/
-│
-├── data/
-│   └── retail_sales_raw.csv
-│
-├── pbix/
-│   └── retail_dashboard.pbix
-│
-└── docs/
-    └── README.md
-```
+### ✅ Why Star Schema?
 
-## 📅 Project Status
-
-### ✅ Completed
-- Day 1 – Project structure setup and GitHub integration  
-- Retail dataset creation  
-- Day 2 – Dataset imported into Power BI  
-- Fact table (`Fact_Sales`) created and validated  
-- PBIX file committed to repository  
-
-### 🔄 In Progress
-- Data cleaning and transformation  
-- Creating calculated columns  
-- Writing DAX measures  
-
-### 🚀 Upcoming
-- KPI Cards (Revenue, Profit, Orders)  
-- Monthly Sales Trend Visualization  
-- Top 10 Products Analysis  
-- Region-wise Sales Map  
-- Category-wise Profit Dashboard  
-- Interactive Slicers & Filters  
-- UI Improvements and Final Polish  
+- Scalable model
+- Accurate aggregations
+- Clean separation of facts and dimensions
+- Professional BI architecture
 
 ---
+
+## 📊 Dashboard Features
+
+### 🔹 Executive KPI Section
+- Total Revenue
+- Total Cost
+- Total Profit
+- Total Returns
+- Return Rate (%)
+
+---
+
+### 🔹 Sales Trend Analysis
+- Monthly Revenue Line Chart
+- Time-based performance tracking
+
+---
+
+### 🔹 Product Performance
+- Revenue by Product
+- Comparative product contribution analysis
+
+---
+
+### 🔹 Category Analysis
+- Profit by Category
+- Category-level margin visibility
+
+---
+
+### 🔹 Regional Insights
+- Interactive Map Visualization
+- Region-wise revenue distribution
+
+---
+
+### 🔹 Interactivity
+- Region Slicer
+- Category Slicer
+- Date Range Slicer (Between type)
+- Fully dynamic cross-filtering
+
+---
+
+## 🏗 Dashboard Layout Structure
