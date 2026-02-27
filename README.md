@@ -1,6 +1,6 @@
 # 📊 Retail Sales Analytics Dashboard (Power BI)
 
-> A professionally designed Power BI dashboard simulating a real-world retail analytics environment with executive-level reporting and interactive insights.
+> > A Power BI dashboard project analyzing retail sales data using DAX measures, a Date-based star schema model, KPI cards, and interactive slicer-driven reporting.
 
 ---
 
