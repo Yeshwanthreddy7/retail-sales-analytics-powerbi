@@ -109,3 +109,54 @@ This project follows **industry-standard modeling principles**:
 ---
 
 ## 🏗 Dashboard Layout Structure
+
+LEFT PANEL → Interactive Filters
+TOP ROW → KPI Summary Cards
+MIDDLE ROW → Revenue Trend & Product Analysis
+BOTTOM ROW → Category Profit & Regional Map
+
+
+This structure ensures:
+
+- Clear hierarchy
+- Executive readability
+- Clean UI/UX alignment
+- Professional presentation
+
+---
+
+## 📁 Project Structure
+
+retail-sales-analytics-powerbi/
+│
+├── data/
+│ └── retail_sales_raw.csv
+│
+├── pbix/
+│ └── retail_dashboard.pbix
+│
+├── screenshots/
+│ └── dashboard.png
+│
+└── README.md
+
+
+## 📈 Core DAX Measures (Examples)
+
+```DAX
+Total Revenue = SUM(Fact_Sales[Revenue])
+
+Total Profit = SUM(Fact_Sales[Profit])
+
+Return Rate = 
+DIVIDE(
+    SUM(Fact_Sales[Returns]),
+    SUM(Fact_Sales[Quantity])
+)
+
+
+## Author
+
+Yeshwanth Reddy
+B.Tech – Computer Science & Engineering
+Aspiring Data Analytics & UI/UX Professional
