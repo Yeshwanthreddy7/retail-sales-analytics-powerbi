@@ -125,20 +125,8 @@ This structure ensures:
 
 ---
 
-## 📁 Project Structure
-
-retail-sales-analytics-powerbi/
-│
-├── data/
-│ └── retail_sales_raw.csv
-│
-├── pbix/
-│ └── retail_dashboard.pbix
-│
-├── screenshots/
-│ └── dashboard.png
-│
-└── README.md
+📁 Project Structure
+retail-sales-analytics-powerbi/ │ ├── data/ │ └── retail_sales_raw.csv │ ├── pbix/ │ └── retail_dashboard.pbix │ ├── screenshots/ │ └── dashboard.png │ └── README.md
 
 
 ## 📈 Core DAX Measures (Examples)
