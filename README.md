@@ -143,22 +143,22 @@ retail-sales-analytics-powerbi/
 ```
 
 
-## 📈 Core DAX Measures (Examples)
+## 📊 Core DAX Measures (Examples)
 
-```DAX
+```text
 Total Revenue = SUM(Fact_Sales[Revenue])
 
 Total Profit = SUM(Fact_Sales[Profit])
 
-Return Rate = 
+Return Rate =
 DIVIDE(
     SUM(Fact_Sales[Returns]),
     SUM(Fact_Sales[Quantity])
 )
+```
 
+## 👤 Author
 
-## Author
-
-Yeshwanth Reddy
-B.Tech – Computer Science & Engineering
+Yeshwanth Reddy  
+B.Tech – Computer Science & Engineering  
 Aspiring Data Analytics & UI/UX Professional
